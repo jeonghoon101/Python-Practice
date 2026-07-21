@@ -23,3 +23,5 @@ df.loc[1, "Score"] = 100
 print(df)
 df["Pass"] = True
 print(df)
+df["Bonus"] = df["Score"] + 5
+print(df)
