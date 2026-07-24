@@ -19,7 +19,7 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - [x] Pandas
 - [ ] Matplotlib
   - [x] Line Plot
-  - [ ] Bar Chart
+  - [x] Bar Chart
   - [ ] Pie Chart
   - [ ] Histogram
   - [ ] Scatter Plot
@@ -87,11 +87,16 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Basic Line Plot
 - Line Style
 - Multiple Line Plots
-- Legend
 - Grid
+- Legend
 - Marker
 - Line Width
 - Line Color
+- Bar Chart
+- Horizontal Bar Chart
+- Bar Colors
+- Bar Edge Colors
+- Value Labels with `plt.text()`
 
 ---
 
@@ -115,7 +120,8 @@ Python-Practice/
 │   └── 04_student_analysis.py
 │
 ├── matplotlib_practice/
-│   └── 01_line_plot.py
+│   ├── 01_line_plot.py
+│   └── 02_bar_chart.py
 │
 ├── projects/
 ├── README.md
@@ -126,7 +132,6 @@ Python-Practice/
 
 ## 🚀 Next Goal
 
-- Bar Chart
 - Pie Chart
 - Histogram
 - Scatter Plot
