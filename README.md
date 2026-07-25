@@ -20,9 +20,11 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - [ ] Matplotlib
   - [x] Line Plot
   - [x] Bar Chart
-  - [ ] Pie Chart
+  - [x] Pie Chart
   - [ ] Histogram
   - [ ] Scatter Plot
+  - [ ] Subplot
+  - [ ] Save Figure
 - [ ] scikit-learn
 - [ ] PyTorch
 - [ ] Computer Vision Projects
@@ -97,6 +99,13 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Bar Colors
 - Bar Edge Colors
 - Value Labels with `plt.text()`
+- Pie Chart
+- Labels
+- Percentage Display (`autopct`)
+- Start Angle (`startangle`)
+- Clockwise Direction (`counterclock`)
+- Explode Effect (`explode`)
+- Custom Colors (`colors`)
 
 ---
 
@@ -121,7 +130,8 @@ Python-Practice/
 │
 ├── matplotlib_practice/
 │   ├── 01_line_plot.py
-│   └── 02_bar_chart.py
+│   ├── 02_bar_chart.py
+│   └── 03_pie_chart.py
 │
 ├── projects/
 ├── README.md
@@ -131,7 +141,7 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-
-- Pie Chart
 - Histogram
 - Scatter Plot
+- Subplot
+- Save Figure
