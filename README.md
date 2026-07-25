@@ -21,7 +21,7 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
   - [x] Line Plot
   - [x] Bar Chart
   - [x] Pie Chart
-  - [ ] Histogram
+  - [x] Histogram
   - [ ] Scatter Plot
   - [ ] Subplot
   - [ ] Save Figure
@@ -106,6 +106,11 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Clockwise Direction (`counterclock`)
 - Explode Effect (`explode`)
 - Custom Colors (`colors`)
+- Histogram
+- Bins (`bins`)
+- Edge Color (`edgecolor`)
+- Transparency (`alpha`)
+- Distribution Visualization
 
 ---
 
@@ -131,7 +136,8 @@ Python-Practice/
 ├── matplotlib_practice/
 │   ├── 01_line_plot.py
 │   ├── 02_bar_chart.py
-│   └── 03_pie_chart.py
+│   ├── 03_pie_chart.py
+│   └── 04_histogram.py
 │
 ├── projects/
 ├── README.md
@@ -141,7 +147,6 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-- Histogram
 - Scatter Plot
 - Subplot
 - Save Figure
