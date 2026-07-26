@@ -22,7 +22,7 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
   - [x] Bar Chart
   - [x] Pie Chart
   - [x] Histogram
-  - [ ] Scatter Plot
+  - [x] Scatter Plot
   - [ ] Subplot
   - [ ] Save Figure
 - [ ] scikit-learn
@@ -111,6 +111,13 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Edge Color (`edgecolor`)
 - Transparency (`alpha`)
 - Distribution Visualization
+- Scatter Plot
+- Scatter Color (`color`)
+- Scatter Marker (`marker`)
+- Marker Size (`s`)
+- Positive Correlation
+- Negative Correlation
+- No Correlation
 
 ---
 
@@ -137,7 +144,8 @@ Python-Practice/
 │   ├── 01_line_plot.py
 │   ├── 02_bar_chart.py
 │   ├── 03_pie_chart.py
-│   └── 04_histogram.py
+│   ├── 04_histogram.py
+│   └── 05_scatter_plot.py
 │
 ├── projects/
 ├── README.md
@@ -147,6 +155,5 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-- Scatter Plot
 - Subplot
 - Save Figure
