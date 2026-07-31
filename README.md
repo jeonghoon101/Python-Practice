@@ -23,7 +23,7 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
   - [x] Pie Chart
   - [x] Histogram
   - [x] Scatter Plot
-  - [ ] Subplot
+  - [x] Subplot
   - [ ] Save Figure
 - [ ] scikit-learn
 - [ ] PyTorch
@@ -118,6 +118,9 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Positive Correlation
 - Negative Correlation
 - No Correlation
+- Subplot (`plt.subplot()`)
+- Layout Adjustment (`plt.tight_layout()`)
+- Multiple Graph Layouts (1×2, 2×2)
 
 ---
 
@@ -145,7 +148,8 @@ Python-Practice/
 │   ├── 02_bar_chart.py
 │   ├── 03_pie_chart.py
 │   ├── 04_histogram.py
-│   └── 05_scatter_plot.py
+│   ├── 05_scatter_plot.py
+│   └── 06_subplot.py
 │
 ├── projects/
 ├── README.md
@@ -155,5 +159,4 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-- Subplot
 - Save Figure
