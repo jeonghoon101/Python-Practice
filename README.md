@@ -24,7 +24,7 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
   - [x] Histogram
   - [x] Scatter Plot
   - [x] Subplot
-  - [ ] Save Figure
+  - [x] Save Figure
 - [ ] scikit-learn
 - [ ] PyTorch
 - [ ] Computer Vision Projects
@@ -121,6 +121,10 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Subplot (`plt.subplot()`)
 - Layout Adjustment (`plt.tight_layout()`)
 - Multiple Graph Layouts (1×2, 2×2)
+- Save Figure (`plt.savefig()`)
+- Image Resolution (`dpi`)
+- Image Export (`.png`, `.jpg`, `.pdf`)
+- Save Order (`savefig()` → `show()`)
 
 ---
 
@@ -149,7 +153,8 @@ Python-Practice/
 │   ├── 03_pie_chart.py
 │   ├── 04_histogram.py
 │   ├── 05_scatter_plot.py
-│   └── 06_subplot.py
+│   ├── 06_subplot.py
+│   └── 07_save_figure.py
 │
 ├── projects/
 ├── README.md
@@ -159,4 +164,6 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-- Save Figure
+- scikit-learn
+- Machine Learning Basics
+- First AI Model
