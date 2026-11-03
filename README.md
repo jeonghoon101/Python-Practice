@@ -35,7 +35,9 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
   - [x] Cross-Validation
   - [x] Stratified K-Fold
   - [x] Hyperparameter Tuning
-  - [ ] Feature Scaling
+  - [x] Feature Scaling
+  - [x] StandardScaler
+  - [x] Scaling Performance Comparison
 - [ ] PyTorch
 - [ ] Computer Vision Projects
 
@@ -150,6 +152,14 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Mean Validation Accuracy (`scores.mean`)
 - Hyperparameter Tuning (`n_neighbors`)
 - Final Model Evaluation
+- Feature Scaling
+- Data Standardization
+- StandardScaler (`StandardScaler`)
+- Fit and Transform (`fit_transform`, `transform`)
+- Mean and Standard Deviation
+- Data Leakage Prevention
+- NumPy Rounding (`np.round`)
+- KNN Performance Comparison Before and After Scaling
 
 ---
 
@@ -183,7 +193,8 @@ Python-Practice/
 │
 ├── sklearn_practice/
 │   ├── 01_iris_dataset.py
-│   └── 02_cross_validation.py
+│   ├── 02_cross_validation.py
+│   └── 03_feature_scaling.py
 │
 ├── projects/
 ├── README.md
@@ -193,6 +204,6 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-- Day 18: Feature Scaling
-- StandardScaler
-- KNN Performance Comparison
+- Day 19: Machine Learning Pipeline
+- Pipeline with StandardScaler and KNN
+- Cross-Validation Without Data Leakage
