@@ -17,7 +17,7 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - [x] Object-Oriented Programming
 - [x] NumPy
 - [x] Pandas
-- [ ] Matplotlib
+- [x] Matplotlib
   - [x] Line Plot
   - [x] Bar Chart
   - [x] Pie Chart
@@ -26,6 +26,12 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
   - [x] Subplot
   - [x] Save Figure
 - [ ] scikit-learn
+  - [x] Iris Dataset
+  - [x] Train/Test Split
+  - [x] KNN Classification
+  - [x] Model Prediction
+  - [x] Accuracy Evaluation
+  - [x] K Value Comparison
 - [ ] PyTorch
 - [ ] Computer Vision Projects
 
@@ -126,6 +132,16 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Image Export (`.png`, `.jpg`, `.pdf`)
 - Save Order (`savefig()` → `show()`)
 
+### 🤖 scikit-learn
+- Iris Dataset (`load_iris`)
+- Features and Labels (`X`, `y`)
+- Train/Test Split (`train_test_split`)
+- KNN Classifier (`KNeighborsClassifier`)
+- Model Training (`fit`)
+- Model Prediction (`predict`)
+- Accuracy Evaluation (`accuracy_score`)
+- Hyperparameter Comparison (`n_neighbors`)
+
 ---
 
 ## 📁 Project Structure
@@ -156,6 +172,9 @@ Python-Practice/
 │   ├── 06_subplot.py
 │   └── 07_save_figure.py
 │
+├── sklearn_practice/
+│   └── 01_iris_dataset.py
+│
 ├── projects/
 ├── README.md
 └── .gitignore
@@ -164,6 +183,5 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-- scikit-learn
-- Machine Learning Basics
-- First AI Model
+- Day 17: Cross-Validation
+- KNN Hyperparameter Tuning
