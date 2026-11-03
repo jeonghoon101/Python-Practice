@@ -38,6 +38,10 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
   - [x] Feature Scaling
   - [x] StandardScaler
   - [x] Scaling Performance Comparison
+  - [x] Machine Learning Pipeline
+  - [x] Pipeline with StandardScaler and KNN
+  - [x] Cross-Validation with Pipeline
+  - [x] Pipeline Hyperparameter Tuning
 - [ ] PyTorch
 - [ ] Computer Vision Projects
 
@@ -160,6 +164,13 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Data Leakage Prevention
 - NumPy Rounding (`np.round`)
 - KNN Performance Comparison Before and After Scaling
+- Machine Learning Pipeline (`Pipeline`)
+- Pipeline Training (`fit`)
+- Pipeline Prediction (`predict`)
+- Cross-Validation with Pipeline
+- Data Leakage Prevention in Cross-Validation
+- Pipeline Parameter Configuration (`set_params`)
+- Hyperparameter Optimization
 
 ---
 
@@ -194,7 +205,8 @@ Python-Practice/
 ├── sklearn_practice/
 │   ├── 01_iris_dataset.py
 │   ├── 02_cross_validation.py
-│   └── 03_feature_scaling.py
+│   ├── 03_feature_scaling.py
+│   └── 04_pipeline.py
 │
 ├── projects/
 ├── README.md
@@ -204,6 +216,6 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-- Day 19: Machine Learning Pipeline
-- Pipeline with StandardScaler and KNN
-- Cross-Validation Without Data Leakage
+- Day 20: Classification Evaluation Metrics
+- Confusion Matrix
+- Precision, Recall, F1-Score
