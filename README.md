@@ -32,6 +32,10 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
   - [x] Model Prediction
   - [x] Accuracy Evaluation
   - [x] K Value Comparison
+  - [x] Cross-Validation
+  - [x] Stratified K-Fold
+  - [x] Hyperparameter Tuning
+  - [ ] Feature Scaling
 - [ ] PyTorch
 - [ ] Computer Vision Projects
 
@@ -141,6 +145,11 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Model Prediction (`predict`)
 - Accuracy Evaluation (`accuracy_score`)
 - Hyperparameter Comparison (`n_neighbors`)
+- Cross-Validation (`cross_val_score`)
+- Stratified K-Fold (`StratifiedKFold`)
+- Mean Validation Accuracy (`scores.mean`)
+- Hyperparameter Tuning (`n_neighbors`)
+- Final Model Evaluation
 
 ---
 
@@ -173,7 +182,8 @@ Python-Practice/
 │   └── 07_save_figure.py
 │
 ├── sklearn_practice/
-│   └── 01_iris_dataset.py
+│   ├── 01_iris_dataset.py
+│   └── 02_cross_validation.py
 │
 ├── projects/
 ├── README.md
@@ -183,5 +193,6 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-- Day 17: Cross-Validation
-- KNN Hyperparameter Tuning
+- Day 18: Feature Scaling
+- StandardScaler
+- KNN Performance Comparison
