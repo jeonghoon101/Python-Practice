@@ -42,6 +42,9 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
   - [x] Pipeline with StandardScaler and KNN
   - [x] Cross-Validation with Pipeline
   - [x] Pipeline Hyperparameter Tuning
+  - [x] Confusion Matrix
+  - [x] Classification Report
+  - [x] Precision / Recall / F1-Score
 - [ ] PyTorch
 - [ ] Computer Vision Projects
 
@@ -171,6 +174,15 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Data Leakage Prevention in Cross-Validation
 - Pipeline Parameter Configuration (`set_params`)
 - Hyperparameter Optimization
+- Confusion Matrix (`confusion_matrix`)
+- Classification Report (`classification_report`)
+- Precision
+- Recall
+- F1-Score
+- Macro Average
+- Weighted Average
+- Confusion Matrix Visualization (`ConfusionMatrixDisplay`)
+- Figure Saving with Matplotlib (`plt.savefig`)
 
 ---
 
@@ -206,7 +218,8 @@ Python-Practice/
 │   ├── 01_iris_dataset.py
 │   ├── 02_cross_validation.py
 │   ├── 03_feature_scaling.py
-│   └── 04_pipeline.py
+│   ├── 04_pipeline.py
+│   └── 05_classification_metrics.py
 │
 ├── projects/
 ├── README.md
@@ -216,6 +229,6 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-- Day 20: Classification Evaluation Metrics
-- Confusion Matrix
-- Precision, Recall, F1-Score
+- Day 21: Regression Basics
+- Linear Regression
+- Mean Absolute Error / Mean Squared Error
