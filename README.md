@@ -45,6 +45,11 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
   - [x] Confusion Matrix
   - [x] Classification Report
   - [x] Precision / Recall / F1-Score
+  - [x] Linear Regression
+  - [x] Regression Model Training
+  - [x] MAE / MSE / RMSE
+  - [x] R² Score
+  - [x] Regression Visualization
 - [ ] PyTorch
 - [ ] Computer Vision Projects
 
@@ -183,6 +188,16 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Weighted Average
 - Confusion Matrix Visualization (`ConfusionMatrixDisplay`)
 - Figure Saving with Matplotlib (`plt.savefig`)
+- Regression Basics
+- Linear Regression (`LinearRegression`)
+- Regression Coefficients (`coef_`, `intercept_`)
+- Regression Prediction (`predict`)
+- Mean Absolute Error (`mean_absolute_error`)
+- Mean Squared Error (`mean_squared_error`)
+- Root Mean Squared Error (`np.sqrt`)
+- R² Score (`r2_score`)
+- Regression Line Visualization (`plt.plot`)
+- Actual vs Predicted Values
 
 ---
 
@@ -219,7 +234,8 @@ Python-Practice/
 │   ├── 02_cross_validation.py
 │   ├── 03_feature_scaling.py
 │   ├── 04_pipeline.py
-│   └── 05_classification_metrics.py
+│   ├── 05_classification_metrics.py
+│   └── 06_linear_regression.py
 │
 ├── projects/
 ├── README.md
@@ -229,6 +245,6 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-- Day 21: Regression Basics
-- Linear Regression
-- Mean Absolute Error / Mean Squared Error
+- Day 22: Multiple Linear Regression
+- Multiple Features
+- Regression Performance Comparison
