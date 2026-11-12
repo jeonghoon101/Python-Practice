@@ -57,6 +57,17 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
   - [x] Regression Performance Comparison
   - [x] Actual vs Predicted Visualization
 - [ ] PyTorch
+  - [x] Tensor Basics
+  - [x] Tensor Creation
+  - [x] Tensor Shape and Dimensions
+  - [x] Tensor Data Types
+  - [x] Tensor Indexing and Slicing
+  - [x] Tensor Arithmetic
+  - [x] Matrix Multiplication
+  - [ ] Autograd
+  - [ ] Neural Networks
+  - [ ] Model Training
+  - [ ] CNN Basics
 - [ ] Computer Vision Projects
 
 ---
@@ -213,6 +224,19 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Actual vs Predicted Visualization
 - Perfect Prediction Line (`y=x`)
 
+### 🔥 PyTorch
+- Tensor Creation (`torch.tensor`)
+- Zeros and Ones (`torch.zeros`, `torch.ones`)
+- Random Tensor (`torch.rand`)
+- Random Seed (`torch.manual_seed`)
+- Tensor Shape (`shape`)
+- Tensor Dimensions (`ndim`)
+- Tensor Data Types (`dtype`)
+- Tensor Indexing and Slicing
+- Tensor Addition (`+`)
+- Element-wise Multiplication (`*`)
+- Matrix Multiplication (`torch.matmul`, `@`)
+
 ---
 
 ## 📁 Project Structure
@@ -251,6 +275,9 @@ Python-Practice/
 │   ├── 05_classification_metrics.py
 │   ├── 06_linear_regression.py
 │   └── 07_multiple_regression.py
+│
+├── pytorch_practice/
+│   └── 01_tensor_basics.py
 ├── projects/
 ├── README.md
 └── .gitignore
@@ -259,6 +286,7 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-- Day 23: PyTorch Basics
-- Tensor Creation and Operations
-- Tensor Shape and Data Types
+- Day 24: PyTorch Autograd
+- Automatic Differentiation
+- Gradient Calculation
+- Backpropagation Basics
