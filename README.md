@@ -64,7 +64,10 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
   - [x] Tensor Indexing and Slicing
   - [x] Tensor Arithmetic
   - [x] Matrix Multiplication
-  - [ ] Autograd
+  - [x] Autograd
+  - [x] Automatic Differentiation
+  - [x] Gradient Calculation
+  - [x] Gradient Descent
   - [ ] Neural Networks
   - [ ] Model Training
   - [ ] CNN Basics
@@ -236,6 +239,16 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - Tensor Addition (`+`)
 - Element-wise Multiplication (`*`)
 - Matrix Multiplication (`torch.matmul`, `@`)
+- Autograd (`requires_grad=True`)
+- Automatic Differentiation
+- Gradient Calculation (`backward`)
+- Gradient Access (`grad`)
+- Tensor Scalar Conversion (`item`)
+- Loss Function (Squared Error)
+- Chain Rule and Backpropagation Basics
+- Gradient Descent
+- Learning Rate
+- Parameter Update (`torch.no_grad`)
 
 ---
 
@@ -277,7 +290,8 @@ Python-Practice/
 │   └── 07_multiple_regression.py
 │
 ├── pytorch_practice/
-│   └── 01_tensor_basics.py
+│   ├── 01_tensor_basics.py
+│   └── 02_autograd.py
 ├── projects/
 ├── README.md
 └── .gitignore
@@ -286,7 +300,8 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-- Day 24: PyTorch Autograd
-- Automatic Differentiation
-- Gradient Calculation
-- Backpropagation Basics
+- Day 25: PyTorch Neural Network Basics
+- nn.Module
+- nn.Linear
+- Forward Propagation
+- Loss Function
