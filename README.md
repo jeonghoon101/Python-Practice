@@ -50,6 +50,12 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
   - [x] MAE / MSE / RMSE
   - [x] R² Score
   - [x] Regression Visualization
+  - [x] Multiple Linear Regression
+  - [x] Multiple Features
+  - [x] Regression Coefficients
+  - [x] Simple vs Multiple Regression
+  - [x] Regression Performance Comparison
+  - [x] Actual vs Predicted Visualization
 - [ ] PyTorch
 - [ ] Computer Vision Projects
 
@@ -198,6 +204,14 @@ AI Engineer 및 Computer Vision Engineer를 목표로 Python과 AI 라이브러�
 - R² Score (`r2_score`)
 - Regression Line Visualization (`plt.plot`)
 - Actual vs Predicted Values
+- Multiple Linear Regression
+- Multiple Features (`np.column_stack`)
+- Regression Coefficients (`coef_`, `intercept_`)
+- Feature Selection (`X[:, [0]]`)
+- Simple vs Multiple Regression
+- Regression Evaluation (MAE, RMSE, R²)
+- Actual vs Predicted Visualization
+- Perfect Prediction Line (`y=x`)
 
 ---
 
@@ -235,8 +249,8 @@ Python-Practice/
 │   ├── 03_feature_scaling.py
 │   ├── 04_pipeline.py
 │   ├── 05_classification_metrics.py
-│   └── 06_linear_regression.py
-│
+│   ├── 06_linear_regression.py
+│   └── 07_multiple_regression.py
 ├── projects/
 ├── README.md
 └── .gitignore
@@ -245,6 +259,6 @@ Python-Practice/
 ---
 
 ## 🚀 Next Goal
-- Day 22: Multiple Linear Regression
-- Multiple Features
-- Regression Performance Comparison
+- Day 23: PyTorch Basics
+- Tensor Creation and Operations
+- Tensor Shape and Data Types
